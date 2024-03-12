@@ -1,0 +1,38 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+.v-img img {
+    display: block !important;
+}
+
+.mysheet {
+  background-color: var(--background-color) !important;
+}
+
+.wamewoLogo {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll {
+overflow: hidden;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
